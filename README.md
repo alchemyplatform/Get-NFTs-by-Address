@@ -25,8 +25,9 @@ Follow these steps to run the script:
 4. Open `getNFTs.js` and update the value of the Wallet Address found within the main function to reflect the wallet that you will be querying. 
 
 
-5. Install the Alchemy SDK and the dotenv package running either of the following commands: `yarn add alchemy-sdk dotenv` or `npm i alchemy-sdk dotenv`
-
+5. Install the Alchemy SDK and the dotenv package running either of the following commands:
+   * yarn add alchemy-sdk dotenv
+   * npm i alchemy-sdk dotenv
 
 6. Run the script in the terminal: `node getNFTs.js`
 
