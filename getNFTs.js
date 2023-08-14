@@ -4,7 +4,7 @@ require('dotenv').config();
 
 // Configure Alchemy SDK with API key and network
 const config = {
-  apiKey: process.env.API_KEY,
+  apiKey: process.env.ALCHEMY_API_KEY,
   network: Network.ETH_MAINNET,
 };
 const alchemy = new Alchemy(config);
