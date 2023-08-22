@@ -20,7 +20,7 @@ const main = async () => {
   // Print NFT details
   // Refer to https://docs.alchemy.com/reference/getnfts to print more fields
   nfts.ownedNfts.forEach((nft) => {
-    console.log("Title:", nft.title);
+    console.log("Name:", nft.contract.name);
     console.log("Contract Address:", nft.contract.address);
     console.log("Token ID:", nft.tokenId);
     console.log("Token Type:", nft.tokenType);
